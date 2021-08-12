@@ -17,12 +17,9 @@ const Card = ({ card }) => {
                     
                         {card.show.network ? <li className="list-group-item"><b> Country : </b>{card.show.network.country.name} {card.show.network.country.timezone} </li> : <> </>}
                         <li className="list-group-item"> <b>Date : </b>{card.show.premiered}</li>
-                        <a href={card.show.url} className="btn btn-primary"><b >more information</b></a>
+                            <a href={card.show.url} className="btn"
+                            style={{backgroundColor:"black",color:"white"}}><b >more information</b></a>
                     </ul>
-
-              
-
-
                 </div>
       
                 </div>

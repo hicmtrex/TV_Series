@@ -1,6 +1,3 @@
-import React from 'react';
-
-
 
 const Navbar = ({handleSubmit,formInput}) => {
     return (
@@ -16,6 +13,9 @@ const Navbar = ({handleSubmit,formInput}) => {
                 <a className="nav-link active" aria-current="page" href="/h">Home</a>
               </li>
             </ul>
+            <div style={{color:"white",marginRight:"10px"}}>
+            Search for Series 	&#8594;
+            </div>
             <form onSubmit={handleSubmit} className="d-flex">
               <input ref={formInput} className="form-control me-2" type="search" placeholder="Search"  aria-label="Search" />
               <button className="btn btn-outline-light" type="submit">Search</button>
