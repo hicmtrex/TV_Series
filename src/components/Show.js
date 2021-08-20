@@ -1,8 +1,7 @@
-import axios from 'axios';
+import { axiosInstance } from '../config';
 import React,{useState,useRef, Fragment} from 'react';
 import Card from './Card';
 import Navbar from '../design/Navbar';
-
 
 const apiUrl = 'http://api.tvmaze.com/search/shows';
 
@@ -16,7 +15,7 @@ const Show = () => {
     setIsloading(true)
       const search = formInput.current.value;
       const config = { params: { q: search } }
-      const { data: cards } = await axios.get(apiUrl, config)
+      const { data: cards } = await axiosInstance.get(apiUrl, config)
       if (!cards) return;
       setIsloading(false)
       setCards(cards)
