@@ -32,7 +32,7 @@ Full tech stack [here](/techstack.md)
 # Tech Stack File
 ![](https://img.stackshare.io/repo.svg "repo") [hicmtrex/TV_Series](https://github.com/hicmtrex/TV_Series)![](https://img.stackshare.io/public_badge.svg "public")
 <br/><br/>
-|14<br/>Tools used|12/21/23 <br/>Report generated|
+|14<br/>Tools used|01/05/24 <br/>Report generated|
 |------|------|
 </div>
 
